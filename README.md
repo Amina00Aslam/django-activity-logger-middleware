@@ -21,6 +21,13 @@ Contains the database models for RequestLog, UserActivityLog, Task, and TaskSumm
 - **views.py**
 Handles API logic for creating, updating, and deleting tasks as well as fetching activity logs.
 
+- **tests.py**
+Purpose: This file contains test cases for your application. It is designed to test the functionality of your models, views, signals, and middleware.
+Structure:
+The tests.py file is divided into different test classes. For example:
+- MiddlewareTest: Tests the middleware functionality, ensuring that requests are logged properly.
+- SignalTest: Tests that signals are fired correctly, e.g., ensuring that creating a task updates the TaskSummary.
+
 ## Getting Started
 ### 1. **Set Up the Development Environment**
 To get started with this project, make sure you have the following prerequisites installed:
