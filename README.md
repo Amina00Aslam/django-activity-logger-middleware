@@ -49,12 +49,6 @@ After installing the dependencies, you can create the Django project:
 django-admin startproject myproject
 ```
 
-Change directory into your project:
-
-```bash
-cd myproject
-```
-
 #### 3.2 Create a Django App
 Now, create a Django app for handling the user activities and tasks:
 
