@@ -86,7 +86,7 @@ python myprojectt\manage.py test user_activity
 ### 5. **Error Handling and Debugging**
 Here are common issues I encountered and how you can resolve them:
 
-Issue: django.db.utils.OperationalError: no such table: <table_name>
+### Issue: django.db.utils.OperationalError: no such table: <table_name>
 
 Solution: This typically occurs if migrations are not run. Run:
 
@@ -94,7 +94,7 @@ Solution: This typically occurs if migrations are not run. Run:
 python myprojectt\manage.py migrate
 ```
 
-Issue: ModuleNotFoundError: No module named 'myproject.settings'
+### Issue: ModuleNotFoundError: No module named 'myproject.settings'
 
 Solution: Ensure that the DJANGO_SETTINGS_MODULE is correctly set in manage.py:
 
