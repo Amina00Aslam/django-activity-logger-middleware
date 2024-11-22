@@ -112,7 +112,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 # Part - 2: Example API Request and Response Samples
 Some example API requests with their HTTP methods, endpoints, and sample payloads (for POST, PUT requests) or URL parameters (for GET requests):
 
-GET Request:
+### GET Request:
 
 ```bash
 GET /api/activity-logs/?user_id=1&date=2024-11-22
@@ -132,7 +132,7 @@ Response:
 ]
 ```
 
-POST Request (Task Creation):
+### POST Request (Task Creation):
 ```bash
 POST /task/
 Content-Type: application/json
@@ -150,6 +150,36 @@ Response:
   "task_id": 1
 }
 ```
+
+### PUT Request:
+```bash
+PUT /task/1/
+Content-Type: application/json
+{
+  "title": "Updated Task Title",
+  "description": "Updated task description here"
+}
+```
+
+Response:
+```bash
+{
+  "message": "Task updated successfully"
+}
+```
+
+### DELETE Request - Task Deletion:
+```bash
+DELETE /task/1/
+```
+
+Response:
+```bash
+{
+  "message": "Task deleted successfully"
+}
+```
+
 
 ### Conclusion
 Follow the steps above to successfully set up the Django backend system. This includes creating models, views, middleware, and APIs for logging and analytics, with appropriate tests and configurations.
