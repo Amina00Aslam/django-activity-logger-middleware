@@ -1,12 +1,30 @@
 import datetime
-
 from django.http import HttpRequest, HttpResponse
 from rest_framework.response import Response
-
 from .models import RequestLog
 
 
 class RequestLoggingMiddleware:
+    """
+    Middleware to log each HTTP request with relevant details such as user, IP address, 
+    URL accessed, HTTP method used, and response status code.
+
+    Attributes:
+        get_response (callable): The next middleware or view to be called in the chain.
+
+    Methods:
+        __call__(request: HttpRequest) -> HttpResponse:
+            Processes the request, logs the details to the database, and returns the response.
+    
+    The middleware captures:
+        - Authenticated user (if any) or 'None' for anonymous users.
+        - IP address from which the request originated.
+        - Full URL that was accessed.
+        - HTTP method (e.g., GET, POST).
+        - Status code of the response.
+        - Timestamp of the request.
+    """
+    
     def __init__(self, get_response: callable):
         self.get_response = get_response
 
