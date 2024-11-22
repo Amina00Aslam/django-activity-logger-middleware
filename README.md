@@ -134,7 +134,7 @@ Response:
 
 POST Request (Task Creation):
 ```bash
-POST /api/task-management/
+POST /task/
 Content-Type: application/json
 {
   "user": 1,
