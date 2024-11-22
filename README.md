@@ -126,8 +126,8 @@ class Task(models.Model):
 Create the necessary database tables for the models:
 
 ```bash
-python manage.py makemigrations
-python manage.py migrate
+python myprojectt\manage.py makemigrations
+python myprojectt\manage.py migrate
 ```
 
 ### 5. **Set Up Views, URLs, and Serializers**
@@ -237,7 +237,7 @@ class RequestLoggingMiddleware:
 Start the development server:
 
 ```bash
-python manage.py runserver
+python myprojectt\manage.py runserver
 ```
 
 ### 8. **Test the Application**
@@ -245,7 +245,7 @@ python manage.py runserver
 - Run the tests with:
 
 ```bash
-python manage.py test
+python myprojectt\manage.py test user_activity
 ```
 
 ### 9. **Final Setup**
