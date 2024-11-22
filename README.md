@@ -60,7 +60,7 @@ python myprojectt\manage.py test user_activity
 ```
 
 
-###5. **Error Handling and Debugging**
+### 5. **Error Handling and Debugging**
 Here are common issues I encountered and how you can resolve them:
 
 Issue: django.db.utils.OperationalError: no such table: <table_name>
