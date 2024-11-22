@@ -59,7 +59,7 @@ cd myproject
 Now, create a Django app for handling the user activities and tasks:
 
 ```bash
-python manage.py startapp user_activity
+python myprojectt\manage.py startapp user_activity
 ```
 
 #### 3.3 Add the App to `INSTALLED_APPS`
