@@ -242,9 +242,5 @@ python myprojectt\manage.py runserver
 python myprojectt\manage.py test user_activity
 ```
 
-### 9. **Final Setup**
-- Once everything is set up and working, push your code to GitHub.
-- If using virtual environments, make sure to add `venv/` (or equivalent) to `.gitignore` to avoid pushing unnecessary files.
-
 ### Conclusion
 Follow the steps above to successfully set up the Django backend system. This includes creating models, views, middleware, and APIs for logging and analytics, with appropriate tests and configurations.
