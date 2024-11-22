@@ -56,20 +56,22 @@ pip install -r requirements.txt
 ```
 #### 2.2 Clone the repository to your local machine:
 
-bash
+```bash
 git clone https://github.com/yourusername/enhanced-logging-system.git
 cd enhanced-logging-system
+```
 
 ### 3. **Set Up**
 #### 3.1 Setup Django Project
 In the cloned repository, run the following command to set up the Django project:
-bash
+```bash
 python myprojectt\manage.py migrate
 
 #### 3.2 Start the Development Server
 You can now run the Django development server:
 bash
 python manage.py runserver
+```
 
 ### 4. **Test the Application**
 - Test the functionality of the signals and middleware using **Django TestCase** (for unit tests).
