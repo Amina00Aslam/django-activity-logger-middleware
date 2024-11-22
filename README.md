@@ -8,6 +8,19 @@ Here’s the complete guide for **Setting Up the Django Backend Assignment** (En
 - **Task Management**: Allows users to create, update, and delete tasks while tracking them in the database.
 - **Analytics**: Keeps track of task statistics and activity logs.
 
+## Project Files Overview
+- **middleware.py**
+Handles the logging of requests. This middleware captures the user's IP address, request method, URL, status code, and logs it into the RequestLog model.
+
+- **signals.py**
+Handles the logic for updating task summaries when tasks are created, updated, or deleted. It uses Django signals to automatically update the TaskSummary model.
+
+- **models.py**
+Contains the database models for RequestLog, UserActivityLog, Task, and TaskSummary. These models store logs of requests, task activities, and task statistics.
+
+- **views.py**
+Handles API logic for creating, updating, and deleting tasks as well as fetching activity logs.
+
 ## Getting Started
 ### 1. **Set Up the Development Environment**
 To get started with this project, make sure you have the following prerequisites installed:
