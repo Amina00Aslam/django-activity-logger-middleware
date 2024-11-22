@@ -81,6 +81,8 @@ python myprojectt\manage.py runserver
 ```bash
 python myprojectt\manage.py test user_activity
 ```
+**This is what you should see**
+![result of tests.py](URL_of_the_image)
 
 
 ### 5. **Error Handling and Debugging**
