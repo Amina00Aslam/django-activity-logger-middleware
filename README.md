@@ -28,7 +28,7 @@ The tests.py file is divided into different test classes. For example:
   - MiddlewareTest: Tests the middleware functionality, ensuring that requests are logged properly.
   - SignalTest: Tests that signals are fired correctly, e.g., ensuring that creating a task updates the TaskSummary.
 
-# Getting Started
+# Part - 1: Getting Started
 ### 1. **Set Up the Development Environment**
 To get started with this project, make sure you have the following prerequisites installed:
 - **Python 3.8+**: Python must be installed on your machine.
