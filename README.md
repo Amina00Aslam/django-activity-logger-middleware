@@ -82,7 +82,7 @@ python myprojectt\manage.py runserver
 python myprojectt\manage.py test user_activity
 ```
 **This is what you should see**
-![result of tests.py](URL_of_the_image)
+![result of tests.py](https://github.com/Amina00Aslam/django-activity-logger-middleware/blob/main/screenshots/Screenshot%20(2337)%20-%20Copy.png?raw=true)
 
 
 ### 5. **Error Handling and Debugging**
