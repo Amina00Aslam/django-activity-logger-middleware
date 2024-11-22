@@ -73,6 +73,8 @@ You can now run the Django development server:
 ```bash
 python myprojectt\manage.py runserver
 ```
+![result of runserver command](https://github.com/Amina00Aslam/django-activity-logger-middleware/blob/main/screenshots/Screenshot%20(2338)%20-%20Copy.png?raw=true)
+
 
 ### 4. **Test the Application**
 - Test the functionality of the signals and middleware using **Django TestCase** (for unit tests).
