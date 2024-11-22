@@ -57,7 +57,7 @@ pip install -r requirements.txt
 #### 2.2 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Amina00Aslam/enhanced-logging-system.git
+git clone https://github.com/Amina00Aslam/django-activity-logger-middleware.git
 cd enhanced-logging-system
 ```
 
