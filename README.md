@@ -16,11 +16,13 @@ To get started with this project, make sure you have the following prerequisites
 You can install Django using pip:
 ```bash
 pip install django
+```
 
 - **Django REST Framework**: This will be used to create RESTful APIs for managing tasks and logs.
 Install Django REST Framework (DRF) to handle API endpoints:
 ```bash
 pip install djangorestframework
+```
 
 - **SQLite**: The database (default in Django).
   
@@ -58,7 +60,7 @@ python myprojectt\manage.py test user_activity
 ```
 
 
-6. Error Handling and Debugging
+###5. **Error Handling and Debugging**
 Here are common issues I encountered and how you can resolve them:
 
 Issue: django.db.utils.OperationalError: no such table: <table_name>
