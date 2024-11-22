@@ -3,9 +3,9 @@ A Django-based logging and analytics system that tracks user activities using mi
 Here’s the complete guide for **Setting Up the Django Backend Assignment** (Enhanced Logging and Analytics System), with all the steps to follow:
 
 ## Features
-- **User Activity Logging**: Logs user requests including IP, URL, HTTP method, and status code.
-- **Event Tracking**: Uses Django signals to track events triggered by specific actions (e.g., task creation, updates).
-- **Task Management**: Allows users to create, update, and delete tasks while tracking them in the database.
+- **Middleware to Log User Requests**: Logs user requests including IP, URL, HTTP method, and status code.
+- **Django Signals for User Activity**: Uses Django signals to track events triggered by specific actions (e.g., task creation, updates).
+- **RESTful API for Task Management**: Provides API endpoints and allows users to create, update, and delete tasks while tracking them in the database.
 - **Analytics**: Keeps track of task statistics and activity logs.
 
 ## Project Files Overview
