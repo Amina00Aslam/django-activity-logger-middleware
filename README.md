@@ -99,5 +99,47 @@ Solution: Ensure that the DJANGO_SETTINGS_MODULE is correctly set in manage.py:
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 ```
 
+# Part - 2: Example API Request and Response Samples
+Some example API requests with their HTTP methods, endpoints, and sample payloads (for POST, PUT requests) or URL parameters (for GET requests):
+
+GET Request:
+
+```bash
+GET /api/activity-logs/?user_id=1&date=2024-11-22
+```
+
+Response:
+```bash
+[
+  {
+    "user": 1,
+    "ip_address": "192.168.1.1",
+    "url": "/api/activity-logs/",
+    "method": "GET",
+    "timestamp": "2024-11-22T15:30:00Z",
+    "status_code": 200
+  }
+]
+```
+
+POST Request (Task Creation):
+```bash
+POST /api/task-management/
+Content-Type: application/json
+{
+  "user": 1,
+  "title": "New Task",
+  "description": "Task details here"
+}
+```
+
+Response:
+```bash
+{
+  "message": "Task created successfully",
+  "task_id": 1
+}
+```
+
 ### Conclusion
 Follow the steps above to successfully set up the Django backend system. This includes creating models, views, middleware, and APIs for logging and analytics, with appropriate tests and configurations.
