@@ -66,10 +66,11 @@ cd django-activity-logger-middleware
 In the cloned repository, run the following command to set up the Django project:
 ```bash
 python myprojectt\manage.py migrate
+```
 
 #### 3.2 Start the Development Server
 You can now run the Django development server:
-bash
+```bash
 python manage.py runserver
 ```
 
