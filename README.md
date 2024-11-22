@@ -71,7 +71,7 @@ python myprojectt\manage.py migrate
 #### 3.2 Start the Development Server
 You can now run the Django development server:
 ```bash
-python manage.py runserver
+python myprojectt\manage.py runserver
 ```
 
 ### 4. **Test the Application**
