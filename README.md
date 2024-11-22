@@ -73,6 +73,8 @@ You can now run the Django development server:
 ```bash
 python myprojectt\manage.py runserver
 ```
+
+**This is what you should see**
 ![result of runserver command](https://github.com/Amina00Aslam/django-activity-logger-middleware/blob/main/screenshots/Screenshot%20(2338)%20-%20Copy.png?raw=true)
 
 
