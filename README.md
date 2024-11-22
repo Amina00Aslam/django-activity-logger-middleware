@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ```bash
 git clone https://github.com/Amina00Aslam/django-activity-logger-middleware.git
-cd enhanced-logging-system
+cd django-activity-logger-middleware
 ```
 
 ### 3. **Set Up**
